@@ -1,6 +1,6 @@
 import unittest
 
-from palindrome import is_palindrome
+from palindrome_advanced import is_palindrome
 
 class TestPalindrome(unittest.TestCase):
     def test_even_numbers(self):
@@ -17,7 +17,7 @@ class TestPalindrome(unittest.TestCase):
     #
     def test_complex_sentences(self):
         self.assertTrue(is_palindrome('A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal: Panama!'))
-    
+
     def test_multiple_sentences(self):
         self.assertTrue(is_palindrome('Doc, note, I dissent. A fast never prevents a fatness. I diet on cod.'))
 
